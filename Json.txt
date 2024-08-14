@@ -1,0 +1,62 @@
+Lista de Carros 
+
+HotGarage
+
+{ "modelo" :  "Skyline R33", "marca" : "Nissa", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" },  
+ "sistema de Transmição" : { "tipo de transmição" : "AWD", "quantidade de Marchas" : 4 }
+
+{ "modelo" :  "NSX 1990", "marca" : "Honda", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" },  
+ "sistema de Transmição" : { "tipo de transmição" : "RWD", "quantidade de Marchas" : 4 }
+
+
+{ "modelo" :  "787b", "marca" : "Mazda", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" },  
+ "sistema de Transmição" : { "tipo de transmição" : "RWD", "quantidade de Marchas" : 4 }
+
+
+{ "modelo" :  "Daytona", "marca" : "Shelby", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : "RWD", "quantidade de Marchas" : 4 }, "peso" : , "historia": " ", "ano fabricação" :}
+
+
+{ "modelo" :  "Z", "marca" : "Nissa", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" },  
+ "sistema de Transmição" : { "tipo de transmição" : "RWD", "quantidade de Marchas" : 4 }
+
+
+{ "modelo" :  "Civic Type R", "marca" : "Honda", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" },  
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" :  "Ram TRX", "marca" : "Dodge", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Formade montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" :  "Caymam", "marca" : "Porche", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" :  "Carreira 911 1989", "marca" : "Porche", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" :  "RX7", "marca" : "Mazda", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" : "V-Series.R", "marca" :"Cadilac", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" : "Ea86", "marca" : "Toyota", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" : "86GT", "marca" : "Toyota", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }
+
+
+{ "modelo" :  "935", "marca" : "Porche", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" },
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 }}
+
+{ "modelo" :  "GT40", "marca" : "Ford", "motor" : { "modelo" : " ", "potencia" : 0, "torque" : 0, "giro-max" : 0.0, "faixa de torque" : 0.0, "litragem" : 0, "Forma de montagem" : "" }, 
+ "sistema de Transmição" : { "tipo de transmição" : " ", "quantidade de Marchas" : 0 } }
+
+
