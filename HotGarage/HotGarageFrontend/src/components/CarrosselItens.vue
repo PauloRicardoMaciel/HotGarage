@@ -1,4 +1,14 @@
-<script lang="js">
+<script lang="ts">
+
+import alterarCarrossel from './scripts/carrossel'; 
+
+export default{
+    props: {
+        id: String
+    }
+    
+};
+
 
 </script>
 <template>
@@ -8,7 +18,7 @@
         <div id="carListCarousel" class="carousel slide" >
             <div class="card-group carousel-inner">
                 
-                <div class="card carousel-item active m-2">
+                <div class="card carousel-item active m-2" :data-car-id="id">
                         <img src="../img/gyo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Marca + Nome</h5>
@@ -18,7 +28,7 @@
                             </svg></p>
                         </div>
                     </div>
-                    <div class="card carousel-item active m-2">
+                    <div class="card carousel-item active m-2" :data-car-id="id">
                         <img src="../img/wallpaperflare.com_wallpaper (10).jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Marca + Nome</h5>
@@ -28,7 +38,7 @@
                             </svg></p>
                         </div>
                     </div>
-                    <div class="card carousel-item active m-2">
+                    <div class="card carousel-item active m-2" :data-car-id="id">
                         <img src="../img/wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Marca + Nome</h5>
@@ -40,7 +50,7 @@
                     
                     </div>
 
-                    <div class="card carousel-item  m-2">
+                    <div class="card carousel-item m-2" :data-car-id="id">
                         <img src="../img/wallpaperflare.com_wallpaper (9).jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Marca + Nome</h5>
@@ -51,7 +61,7 @@
                         </div>
                     
                     </div>
-                    <div class="card carousel-item  m-2">
+                    <div class="card carousel-item  m-2" :data-car-id="id">
                         <img src="../img/wallpaperflare.com_wallpaper (9).jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Marca + Nome</h5>
@@ -64,12 +74,12 @@
                     </div>
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carListCarousel" data-bs-slide-to="0" data-bs-from="0">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button class="carousel-control-prev" :data-id="id" data-position='0' type="button" data-previous="previous">
+                <span class="" :id="'previous'+id" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carListCarousel" data-bs-slide-to="3" data-bs-from="3">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button class="carousel-control-next"  type="button" data-next="next" :data-id="id" data-position='0'>
+                <span class="carousel-control-next-icon" :id="'next'+id" aria-hidden="true"></span>
                 <span class="visually-hidden">Proximo</span>
                 </button>
             </div>

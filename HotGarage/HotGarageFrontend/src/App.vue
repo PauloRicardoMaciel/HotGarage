@@ -2,7 +2,7 @@
 import NavBar from './components/NavBar.vue'
 import Carousel from './components/Carousel.vue'
 import GrupoCard from './components/GrupoCard.vue';
-import Teste from './components/Teste.vue';
+import CarrosselItens from './components/CarrosselItens.vue';
 </script>
 
 <template>
@@ -12,16 +12,16 @@ import Teste from './components/Teste.vue';
     <div>
      <Carousel />
     </div>
-    <GrupoCard />
+    <CarrosselItens id="1"/> 
 
-    <Teste /> 
+    <CarrosselItens id="2" /> 
     
-    <GrupoCard />
+    <CarrosselItens  id="3"/> 
     
-    <GrupoCard />
+    <CarrosselItens  id="4"/> 
     
-    <GrupoCard />
+    <CarrosselItens  id="5"/> 
     
-    <GrupoCard />
+    <CarrosselItens  id="6"/> 
   </main>
 </template>

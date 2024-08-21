@@ -1,11 +1,14 @@
 <script lang="ts">
-import CardCar from './CardCar.vue';
+import { prototype } from 'events';
+
 
 export default{
     props: {
-        listcar: Object
+        listcar: prototype <Object>
     }
+    
 };
+
     
 
 
