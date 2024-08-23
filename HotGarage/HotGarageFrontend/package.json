@@ -1,5 +1,5 @@
 {
-  "name": "hotgarage",
+  "name": "hotgaragefrontend",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,8 +11,8 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
-    "hotgarage": "file:",
     "vue": "^3.4.29"
   },
   "devDependencies": {
